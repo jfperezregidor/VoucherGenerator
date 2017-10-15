@@ -1,11 +1,15 @@
 # Voucher Generator
 
-The program will generate a voucher codes list, using different algorithms.
+The program will generate a voucher codes list using different algorithms.
+
 
 ## Usage
 Before start:
 
-* Clone the repository 
+* Clone the repository in your workspace
+* The program has two classes.
+	1. Main.java - It is the main program
+	2. VoucherGenerator.java - It is the voucher generator codes
 
 Procedure:
 
@@ -14,7 +18,7 @@ Procedure:
 	0 - Sequential numbers
 	1 - Sequential hexadecimal
 	2 - Filled hexadecimal
-* Introduce the quantity. i.e 50
+* Introduce the quantity.
 
 
 

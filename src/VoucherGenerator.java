@@ -28,9 +28,13 @@ public class VoucherGenerator {
 	 */
 	public VoucherGenerator(int type, int quantity) throws Exception {
 		this.type = type;
-		this.quantity = quantity;
 		
-		generateCodes(this.type, this.quantity);
+		if(quantity > 0) {
+			this.quantity = quantity;
+			generateCodes(this.type, this.quantity);
+		}else {
+			throw new IllegalArgumentException("The quantity must be greater than zero" );
+		}
 		
 	}
 	
@@ -158,8 +162,12 @@ public class VoucherGenerator {
 	 * @throws Exception - Generator type undefined 
 	 */
 	public void setQuantity(int quantity) throws Exception {
-		this.quantity = quantity;
-		generateCodes(this.type, this.quantity);
+		if(quantity > 0) {
+			this.quantity = quantity;
+			generateCodes(this.type, this.quantity);
+		}else {
+			throw new IllegalArgumentException("The quantity must be greater than zero" );
+		}
 	}
 
 	/**

@@ -42,6 +42,9 @@ public class Main {
 		}catch(InputMismatchException e) {
 			// Inputs error
 			System.out.println("Error, please only insert numbers. Reset the program and start again.");
+		}catch(IllegalArgumentException e) {
+			// Error, Quantity must be greater than 0
+			System.out.println("The quantity must be greater than zero. Reset the program and start again.");
 		}catch (Exception e) {
 			// Error, Generator type is undefined
 			System.out.println("Error! Generator type is wrong. Please reset the program and enter the correct type.");
