@@ -17,7 +17,7 @@ Procedure:
 * Introduce the algorithm that you want to use to generate the voucher codes
 	0 - Sequential numbers
 	1 - Sequential hexadecimal
-	2 - Filled hexadecimal
+	2 - Random Filled hexadecimal
 * Introduce the quantity.
 
 

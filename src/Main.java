@@ -18,7 +18,7 @@ public class Main {
 				+ "Voucher Generator Types:\n"
 				+ "		0 - Sequential numbers\n"
 				+ "		1 - Sequential hexadecimal\n"
-				+ "		2 - Filled hexadecimal\n");
+				+ "		2 - Random filled hexadecimal\n");
 		
 		try {
 			// Init the generator entries

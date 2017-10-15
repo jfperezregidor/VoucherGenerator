@@ -10,7 +10,7 @@ public class VoucherGenerator {
 	
 	public static int DECIMAL_SEQUENTIAL = 0;
 	public static int HEXADECIMAL_SEQUENTIAL = 1;
-	public static int HEXADECIMAL_FILLED = 2;
+	public static int HEXADECIMAL_RANDOM_FILLED = 2;
 	
 	private int numDigits = 6;
 	private String voucherFormat = "%06d%s";
@@ -57,7 +57,7 @@ public class VoucherGenerator {
 				this.codes = hexadecimalSequencialGenerator(quantity);
 				break;
 			case 2:
-				this.codes = hexadecimalFilledGenerator(quantity);
+				this.codes = hexadecimalRandomFilledGenerator(quantity);
 				break;
 			default:
 				throw new Exception("Generator type (" + type +") is undefined");
@@ -112,7 +112,7 @@ public class VoucherGenerator {
 	 * @param quantity - voucher codes number
 	 * @return list - voucher code list 
 	 */
-	private ArrayList<String> hexadecimalFilledGenerator(int quantity){
+	private ArrayList<String> hexadecimalRandomFilledGenerator(int quantity){
 		ArrayList<String> list = new ArrayList<String>();
 		if(String.valueOf(quantity).length() >= this.numDigits) {
 			list = hexadecimalSequencialGenerator(quantity);
