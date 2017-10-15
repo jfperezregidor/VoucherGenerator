@@ -14,7 +14,7 @@ Before start:
 Procedure:
 
 * Run the Main.class
-* Introduce the algorithm that you want to use to generate the voucher codes
+* Introduce the algorithm type that you want to use to generate the voucher codes
 	0 - Sequential numbers
 	1 - Sequential hexadecimal
 	2 - Random Filled hexadecimal
