@@ -25,3 +25,4 @@
 
 # jME (binaries)
 *.so
+/bin/
