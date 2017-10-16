@@ -2,7 +2,7 @@ package main.exceptions;
 
 /**
  * Algorithm Exception is a custom exception.
- * @author Jeronimo
+ * @author Jeronimo Perez
  * @version 1.0
  */
 public class AlgorithmException extends Exception {
