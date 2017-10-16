@@ -7,9 +7,8 @@ The program will generate a voucher codes list using different algorithms.
 Before start:
 
 * Clone the repository in your workspace
-* The program has two classes.
-	1. Main.java - It is the main program
-	2. VoucherGenerator.java - It is the voucher generator codes
+* The program Main.java contains the main program
+* The code has been designed with OOP Abstract Factory Design
 
 Procedure:
 
