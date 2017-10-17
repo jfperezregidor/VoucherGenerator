@@ -9,7 +9,7 @@ import main.voucher.generator.Algorithm;
 /**
  * Voucher Generator with a code list of Hexadecimal Numbers with minimum 6 characters
  * @author Jeronimo Perez
- * @version 1.0
+ * @version 1.1
  */
 public class HexadecimalRandom implements Algorithm {
 	
