@@ -8,7 +8,7 @@ Before start:
 
 * Clone the repository in your workspace
 * The program Main.java contains the main program
-* The code has been designed with OOP Abstract Factory Design
+* The code has been designed with Strategy Pattern Design
 
 Procedure:
 
